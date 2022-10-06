@@ -17,6 +17,24 @@
   dependencies:
     source-map "^0.5.6"
 
+"@angular-devkit/core@0.0.25":
+  version "0.0.25"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-0.0.25.tgz#9ddbdcccd2aeb9c029c83815f9d01806e7971f99"
+  dependencies:
+    ajv "~5.5.1"
+    chokidar "^1.7.0"
+    source-map "^0.5.6"
+
+"@angular-devkit/schematics@0.0.46":
+  version "0.0.46"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.0.46.tgz#68c7b24d94b62542e2fe6978cf1f5ef7805a5ded"
+  dependencies:
+    "@angular-devkit/core" "0.0.25"
+    "@ngtools/json-schema" "^1.1.0"
+    "@schematics/schematics" "0.0.13"
+    minimist "^1.2.0"
+    rxjs "^5.5.6"
+
 "@angular-devkit/schematics@~0.0.42":
   version "0.0.42"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-0.0.42.tgz#34eea7136455545c8abd21edf94a36870a073fea"
@@ -185,6 +203,10 @@
   version "0.0.11"
   resolved "https://registry.yarnpkg.com/@schematics/schematics/-/schematics-0.0.11.tgz#c8f70f270ed38f29b2873248126fd59abd635862"
 
+"@schematics/schematics@0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@schematics/schematics/-/schematics-0.0.13.tgz#f7eda5c7caab714f2675dca9cb8301a737acdba2"
+
 "@types/backbone@1.3.37":
   version "1.3.37"
   resolved "https://registry.yarnpkg.com/@types/backbone/-/backbone-1.3.37.tgz#b3cf3102fc0a2b479caa7c6f761f0b4419886506"
@@ -300,7 +322,7 @@ ajv@^4.9.1:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
 
-ajv@^5.0.0, ajv@^5.1.0, ajv@^5.1.5:
+ajv@^5.0.0, ajv@^5.1.0, ajv@^5.1.5, ajv@~5.5.1:
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.5.2.tgz#73b5eeca3fab653e3d3f9422b341ad42205dc965"
   dependencies:
@@ -4949,6 +4971,12 @@ run-queue@^1.0.0, run-queue@^1.0.3:
 rxjs@5.5.6, rxjs@^5.5.2:
   version "5.5.6"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.6.tgz#e31fb96d6fd2ff1fd84bcea8ae9c02d007179c02"
+  dependencies:
+    symbol-observable "1.0.1"
+
+rxjs@^5.5.6:
+  version "5.5.12"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.12.tgz#6fa61b8a77c3d793dbaf270bee2f43f652d741cc"
   dependencies:
     symbol-observable "1.0.1"
 
